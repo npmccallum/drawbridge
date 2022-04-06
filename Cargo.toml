@@ -6,9 +6,6 @@ edition = "2021"
 
 [workspace]
 members = [
-    "crates/auth",
-    "crates/hash",
-    "crates/tags",
     "crates/tree",
     "crates/byte",
     "crates/jose",
@@ -17,8 +14,7 @@ members = [
 
 [dependencies]
 # Internal dependencies
-drawbridge-http = { path = "./crates/http" }
-drawbridge-name = { path = "./crates/name" }
+#drawbridge-name = { path = "./crates/name" }
 
 # External dependencies
 async-h1 = "2.3.3"
